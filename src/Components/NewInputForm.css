@@ -1,0 +1,46 @@
+.output .valid{
+    font-size: 25px;
+    color: lightgreen;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 900px;
+    height: 200px;
+}
+.output .invalid{
+    font-size: 20px;
+    color: red;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 900px;
+    height: 200px;
+}
+.submitForm button{
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #8eeb9a;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+.submitForm button:hover{
+    background-color: #76c781
+}
+.submitForm{
+    display: inline-flex;
+    margin-top: 45px;
+    margin-left : 25px;
+}
+.submitForm input{
+    margin-right: 15px;
+    border-radius: 7%;
+}
+.submitForm input[type="text"]{
+    font-size:25px;
+    color: #525252;
+    font-family: 'Roboto Mono', monospace;
+}
